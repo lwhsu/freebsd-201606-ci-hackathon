@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FreeBSD is (not) dying in Taiwan</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+      @import url(http://fonts.googleapis.com/css?family=Noto+Serif);
+      @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+      body { font-family: 'Noto Serif'; }
+      h1, h2, h3 {
+        font-family: 'Noto Sans';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code {
+          font-family: 'Source Code Pro';
+          font-size: 85%;
+      }
+      a, a:visited {
+        color: #0044BB;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #FF4444;
+        text-decoration: underline;
+      }
+      /* Two-column layout */
+      .left-column {
+        width: 50%;
+        float: left;
+      }
+      .right-column {
+        width: 50%;
+        float: right;
+      }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var path = document.URL;
+      path = path.replace(/\/[^\/]*$/, '');
+      path = path + '/slides.md';
+      var slideshow = remark.create({ sourceUrl: path });
+    </script>
+  </body>
+</html>
