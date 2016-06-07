@@ -37,3 +37,22 @@ arthur.nyi
 - da[0-3]:
   - &lt;ATA HGST HUS726020AL T7J0&gt; Fixed Direct Access SPC-4 SCSI device
   - 1907729MB (3907029168 512 byte sectors)
+
+---
+# Planned new system architecture
+- main server
+  - jenkins master jail
+  - web server jail
+  - artifact storage jail
+  - admin jail
+- jail node
+- bhyve node
+- qemu node
+
+---
+# Planned resource allocation
+(while YSV still available)
+
+---
+# Planned resource allocation
+(after YSV decommission)
