@@ -153,7 +153,7 @@ Possible issues
 - compiler warnings
 - checkstyle
 - phabricator differential
-  - needs patch for working with SVN
+  - needs patch to work with SVN
 
 ---
 # Current issues
