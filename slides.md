@@ -10,7 +10,7 @@ Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
 - Curret system architecture, resource we have
 - My planned new system architecture
 - Current build jobs we have
-- Install Jenkins on FreeBSD and basic setup and maintenance
+- Install Jenkins on FreeBSD, basic setup and maintenance
 - "Pipeline" job in Jenkins 2
 - Jenkins plugins now used in our system, and some useful plugins
 - The issues we currently have.
@@ -114,7 +114,7 @@ Possible issues
   - arm64, i386 builds
 
 ---
-# Install Jenkins on FreeBSD and basic setup and maintenance
+# Install Jenkins on FreeBSD, basic setup and maintenance
 
 - Demo
 
