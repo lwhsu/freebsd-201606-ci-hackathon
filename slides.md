@@ -40,7 +40,7 @@ https://wiki.freebsd.org/Jenkins/Architecture
 
 https://wiki.freebsd.org/Jenkins/MachineList
 
-arthur.nyi (added 2016/04)
+arthur.nyi (arrived 2016/04, under testing)
 - CPU: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz (2300.05-MHz K8-class CPU)
 - FreeBSD/SMP: Multiprocessor System Detected: 40 CPUs
 - ada[0-1]:
