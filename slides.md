@@ -87,7 +87,7 @@ Hardware allocation
 Possible issues
 - YSV decommission
 - arthur.nyi's storage is too good for a build salve
-- arthur.nyi's CPU/memory are too good for master node
+- arthur.nyi's CPU/memory are too good for a master node
 
 
 - can we buy new machine in NYI and move/exchange components on arthur.nyi?
