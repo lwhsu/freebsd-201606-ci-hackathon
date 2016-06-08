@@ -61,12 +61,18 @@ arthur.nyi (added 2016/04)
       - running ftpd (ftp-over-tls) for slaves uploading artifact
   - admin jail
       - config repository
+
+---
+# Planned new system architecture (c.)
 - jail node(s)
   - Simple build, focus on build speed
 - bhyve node(s)
   - provision test VM with image built in previous phase
 - qemu node(s)
   - run test VM for the arch that bhyve doesn't support
+
+
+- Cloud nodes?
 
 ---
 # Planned resource allocation
@@ -131,6 +137,7 @@ Possible issues
 
 ---
 # Jenkins plugins now used in our system, and some useful plugins
+- https://wiki.freebsd.org/Jenkins/#Plugins_we_use
 - LDAP
 - Matrix authenication
 - green balls
@@ -140,9 +147,10 @@ Possible issues
 ---
 # Current issues
 - Publish-over-ftp doesn't support pipeline
-  - can use multiple jobs
+  - can use multiple jobs (old-style pipeline)
   - working on fixing
       - https://github.com/lwhsu/publish-over-ftp-plugin
+  - Use artifact storage built in jenkins
 - pipeline script and source code located in different repositories
   - cause SCM monitoring failing
   - move pipeline definition to svn.freebsd.org?
