@@ -19,9 +19,15 @@ Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
 ---
 # System Architecture
 
-[2016/04](https://wiki.freebsd.org/Jenkins/Architecture?action=AttachFile&do=get&target=jenkins_freebsd_org-now.png)
-
 https://wiki.freebsd.org/Jenkins/Architecture
+
+- [2016/04](https://wiki.freebsd.org/Jenkins/Architecture?action=AttachFile&do=get&target=jenkins_freebsd_org-now.png)
+- 2016/05
+  - jenkins10 (VM) moved to chaos.ysv
+
+- Issues
+  - Running test VM depends on NFS, adding one more unstable factor
+  - Running test/buil may crash the host where jenkins master is running
 
 ---
 # Resource we have currently
@@ -45,9 +51,9 @@ arthur.nyi
   - web server jail
   - artifact storage jail
   - admin jail
-- jail node
-- bhyve node
-- qemu node
+- jail node(s)
+- bhyve node(s)
+- qemu node(s)
 
 ---
 # Planned resource allocation
