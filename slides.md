@@ -72,6 +72,11 @@ arthur.nyi (added 2016/04)
   - run test VM for the arch that bhyve doesn't support
 
 
+- misc
+  - outgoing mail relay
+  - monitoring, for service liveness check
+
+
 - Cloud nodes?
 
 ---
