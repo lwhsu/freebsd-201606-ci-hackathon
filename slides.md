@@ -197,6 +197,8 @@ Possible issues
 ---
 # More details
 https://docs.google.com/document/d/1qI2vH2tWdzifeb-QfQrAEBz5SCe84xXmuhmNjXgtxs4/pub
+(published version, no login to google required)
+
 
 TODO:
 - arrange it
