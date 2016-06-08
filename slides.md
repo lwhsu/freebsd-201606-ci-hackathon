@@ -193,7 +193,8 @@ Possible issues
 - job for checking reproducible build (src, ports)
   - sysutils/py-diffoscope
   - PublishHTML plugin
-- Integration with redports (make redpots thin, just handing authenication and passing patch)
+- Integration with redports
+  - make redports thin, just handing authenication and passing patch
 
 ---
 # Current TODO items (c.)
