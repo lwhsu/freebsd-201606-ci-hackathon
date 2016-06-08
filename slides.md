@@ -30,9 +30,9 @@ https://wiki.freebsd.org/Jenkins/Architecture
 
 - Issues
   - Some jobs require package pre-installed on build slaves
-      - can be solved by automatically provision build environment (script needed!)
+      - Can be solved by automatically provision build environment (script needed!)
   - Running test VM depends on NFS, adding one more unstable factor
-      - can be solved by introducing a artifact server
+      - Can be solved by introducing a artifact server
   - Running test/build may crash the host where jenkins master is running
 
 ---
@@ -52,35 +52,35 @@ arthur.nyi (arrived 2016/04, under testing)
 
 ---
 # Planned new system architecture
-- main server
-  - jenkins master jail
-  - web server jail
+- Main server
+  - Jenkins master jail
+  - Web server jail
       - reverse proxy for jenkins
       - serving artifact to external users
-  - artifact storage jail
+  - Artifact storage jail
       - running ftpd (ftp-over-tls) for slaves uploading artifact
-  - admin jail
+  - Admin jail
       - config repository
 
 ---
 # Planned new system architecture (c.)
-- slave nodes, categorized by type/usage
-  - jail node(s)
+- Slave nodes, categorized by type/usage
+  - Jail node(s)
       - Simple build, focus on build speed
   - bhyve node(s)
       - provision test VM with image built in previous phase
-  - qemu node(s)
+  - QEMU node(s)
       - run test VM for the arch that bhyve doesn't support
 - Slaves running scripts to connect back to master server
   - https://github.com/lwhsu/jenkins-slave-scripts
-  - not using ssh, requested by clusteradm
+  - Don't use ssh, it's requested by clusteradm
 
-
-- misc
-  - outgoing mail relay
-  - monitoring, for service liveness check
-
-
+---
+# Planned new system architecture (misc)
+- Outgoing mail relay
+  - What's the mail "From:"?
+  - jenkins-admin@ (currently), jenkins-no-reply@
+- Monitoring, for service liveness check
 - Cloud nodes?
 
 ---
@@ -117,11 +117,11 @@ Possible issues
 
 ---
 # Current build jobs we have
-- pipeline jobs
+- Pipeline jobs
   - FreBSD\_HEAD, FreeBSD\_stable-10
-- freestyle jobs
+- Freestyle jobs
   - doc
-- freestyle jobs, "build-in-jail"
+- Freestyle jobs, "build-in-jail"
   - arm64, i386 builds
 
 ---
@@ -153,7 +153,7 @@ Possible issues
 
 ---
 # Jenkins plugins now used in our system, and some useful plugins
-- https://wiki.freebsd.org/Jenkins/#Plugins_we_use
+- https://wiki.freebsd.org/Jenkins/#Plugins_we_use (need update/cleanup)
 - LDAP
 - matrix authorization
 - green balls
@@ -170,7 +170,7 @@ Possible issues
   - Working on fixing
       - https://github.com/lwhsu/publish-over-ftp-plugin
   - Use artifact storage built in jenkins
-- pipeline script and source code located in different repositories
+- Pipeline script and source code located in different repositories
   - Cause SCM monitoring failing
   - Move pipeline definition to svn.freebsd.org?
   - (workaround) just create a "monitoring job"
@@ -210,16 +210,16 @@ Possible issues
 
 ---
 # Small TBD items
-- pipeline/jobs trigger frequency
+- Pipeline/jobs trigger frequency
   - building world & kernel takes ~20 mins, full regression test takes ~1 hour
   - a single pipline takes too much time, cannot detect compiling fail quick emough
   - a pipeline configurated running jobs in parallel makes endless regression jobs
       - N "compiling test jobs" trigger 1 "regression test job" ?
       - regression job can only run one in a time, just takes latest result from compiling job
-- new domain name?
+- New domain name?
   - ci.freebsd.org?
   - build.freebsd.org?
-- job naming convention
+- Job naming convention
 
 ---
 # Propose a new build job
@@ -235,5 +235,5 @@ https://docs.google.com/document/d/1qI2vH2tWdzifeb-QfQrAEBz5SCe84xXmuhmNjXgtxs4/
 
 
 TODO:
-- arrange it
-- extract TODO items and put on wiki
+- Arrange it
+- Extract TODO items and put on wiki
