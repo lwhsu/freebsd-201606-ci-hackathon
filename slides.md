@@ -117,6 +117,9 @@ Possible issues
 # Install Jenkins on FreeBSD, basic setup and maintenance
 
 - Demo
+  - pkg install Jenkins
+  - basic securiry setting
+  - update plugins
 
 ---
 # "Pipeline" job in Jenkins 2
