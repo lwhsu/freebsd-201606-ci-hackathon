@@ -165,13 +165,14 @@ Possible issues
 ---
 # Current issues
 - Publish-over-ftp doesn't support pipeline
-  - can use multiple jobs (old-style pipeline)
-  - working on fixing
+  - Cannot make pipeline job use artifact server
+  - Can use multiple jobs (old-style pipeline)
+  - Working on fixing
       - https://github.com/lwhsu/publish-over-ftp-plugin
   - Use artifact storage built in jenkins
 - pipeline script and source code located in different repositories
-  - cause SCM monitoring failing
-  - move pipeline definition to svn.freebsd.org?
+  - Cause SCM monitoring failing
+  - Move pipeline definition to svn.freebsd.org?
   - (workaround) just create a "monitoring job"
 
 ---
