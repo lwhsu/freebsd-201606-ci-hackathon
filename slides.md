@@ -132,6 +132,9 @@ Possible issues
   - Hello world
   - Snipper generator
 
+- freebsd-ci
+  - https://github.com/freebsd/freebsd-ci/blob/master/scripts/build/build-test.groovy
+
 ---
 # Jenkins plugins now used in our system, and some useful plugins
 - LDAP
