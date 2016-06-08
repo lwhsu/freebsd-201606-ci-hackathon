@@ -109,9 +109,14 @@ Possible issues
 ---
 # Current build jobs we have
 - pipeline
+  - FreBSD_HEAD, FreeBSD_stable-10
+- build-in-jail
+  - arm64, i386 builds
 
 ---
 # Install Jenkins on FreeBSD and basic setup and maintenance
+
+- Demo
 
 ---
 # "Pipeline" job in Jenkins 2
@@ -121,9 +126,16 @@ Possible issues
 
 
 - Demo
+  - Hello world
+  - Snipper generator
 
 ---
 # Jenkins plugins now used in our system, and some useful plugins
+- LDAP
+- Matrix authenication
+- green balls
+- compiler warnings
+- checkstyle
 
 ---
 # The issues we currently have.
@@ -146,3 +158,10 @@ Possible issues
 - Integration with redports (make redpots thin, just handing authenication and passing patch)
 
 - Stage environment
+
+---
+# Last by not least
+- new domain name?
+  - ci.freebsd.org?
+  - build.freebsd.org?
+- job naming convention
