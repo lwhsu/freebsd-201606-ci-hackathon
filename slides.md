@@ -55,12 +55,13 @@ arthur.nyi (arrived 2016/04, under testing)
 - Main server
   - Jenkins master jail
   - Web server jail
-      - reverse proxy for jenkins
-      - serving artifact to external users
+      - Reverse proxy for jenkins
+      - Serving artifact to external users
   - Artifact storage jail
       - running ftpd (ftp-over-tls) for slaves uploading artifact
+      - For jobs to get the artifact from upstream jobs, then do further build/testing
   - Admin jail
-      - config repository
+      - Config repository
 
 ---
 # Planned new system architecture (c.)
