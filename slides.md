@@ -169,6 +169,7 @@ Possible issues
 
 ---
 # Current TODO items
+- Create new jenkins cluster, move current jobs to it
 - More complex pipeline
   - ex: quick amd64/i386 build -&gt; make universe -&gt; test
 - A better "template job"
