@@ -8,7 +8,7 @@ Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
 # Agenda
 
 - Current system architecture, resource we have
-- My planned new system architecture
+- Planned new system architecture
 - Current build jobs we have
 - Install Jenkins on FreeBSD, basic setup and maintenance
 - "Pipeline" job in Jenkins 2
