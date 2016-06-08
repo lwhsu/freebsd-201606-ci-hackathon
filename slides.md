@@ -64,12 +64,16 @@ arthur.nyi (added 2016/04)
 
 ---
 # Planned new system architecture (c.)
-- jail node(s)
-  - Simple build, focus on build speed
-- bhyve node(s)
-  - provision test VM with image built in previous phase
-- qemu node(s)
-  - run test VM for the arch that bhyve doesn't support
+- slave nodes, categorized by type/usage
+  - jail node(s)
+      - Simple build, focus on build speed
+  - bhyve node(s)
+      - provision test VM with image built in previous phase
+  - qemu node(s)
+      - run test VM for the arch that bhyve doesn't support
+- Slaves running scripts to connect back to master server
+  - https://github.com/lwhsu/jenkins-slave-scripts
+  - not using ssh, requested by clusteradm
 
 
 - misc
@@ -191,7 +195,7 @@ Possible issues
 - Better authenication model
   - OAuth2, needs forking and modification other oauth plugins
       - https://wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin
-      - also needs help from clusteradm, and clusteram needs help
+      - also needs help from clusteradm, and clusteradm needs help
       - other cluster services will also benefite from this
 
 ---
