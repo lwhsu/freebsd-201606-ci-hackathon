@@ -160,6 +160,10 @@ Possible issues
 
 ---
 # Current TODO items
+- More complex pipeline
+  - ex: quick amd64/i386 build -&gt; make universe -&gt; test
+- A better "template job"
+  - preliminary
 - Integration with Phabricator (reviews.freebsd.org)
   - https://github.com/uber/phabricator-jenkins-plugin
 - Revive clang-scan-build
@@ -170,7 +174,8 @@ Possible issues
   - PublishHTML plugin
 - Integration with redports (make redpots thin, just handing authenication and passing patch)
 
-
+---
+# Current TODO items (c.)
 - Housekeeping the resources requested by jenkins-admin@
   - IPs, firewall rules, etc.
 - Stage environment
