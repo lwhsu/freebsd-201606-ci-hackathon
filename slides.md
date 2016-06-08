@@ -162,6 +162,11 @@ Possible issues
 
 
 - Stage environment
+- Better authenication model
+  - OAuth2, needs forking and modification other oauth plugins
+      - https://wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin
+      - also needs help from clusteradm, and clusteram needs help
+      - other cluster services will also benefite from this
 
 ---
 # Small TBD items
