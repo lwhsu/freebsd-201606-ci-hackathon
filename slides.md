@@ -96,7 +96,7 @@ Hardware allocation
   - chaos.ysv
   - arthur.nyi
 - qemu node(s)
-  - kyua*.nyi
+  - kyua\*.nyi
 ]
 .right-column[
 Possible issues
@@ -118,7 +118,7 @@ Possible issues
 ---
 # Current build jobs we have
 - pipeline jobs
-  - FreBSD_HEAD, FreeBSD_stable-10
+  - FreBSD\_HEAD, FreeBSD\_stable-10
 - freestyle jobs
   - doc
 - freestyle jobs, "build-in-jail"
