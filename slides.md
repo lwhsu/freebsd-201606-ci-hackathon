@@ -132,6 +132,11 @@ Possible issues
   - basic securiry setting
   - update plugins
 
+- Job configuration tool
+  - Jenkins Job Builder — from OpenStack
+      - http://docs.openstack.org/infra/jenkins-job-builder/
+      - https://www.mediawiki.org/wiki/Continuous_integration/Jenkins_job_builder
+
 ---
 # "Pipeline" job in Jenkins 2
 - https://jenkins.io/2.0/#pipelines
