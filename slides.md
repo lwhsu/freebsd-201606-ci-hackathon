@@ -144,10 +144,11 @@ Possible issues
 - checkstyle
 
 ---
-# The issues we currently have.
+# The issues we currently have
 - Publish-over-ftp doesn't support pipeline
   - can use multiple jobs
   - working on fixing
+      - https://github.com/lwhsu/publish-over-ftp-plugin
 - pipeline script and source code located in different repositories
   - cause SCM monitoring failing
   - move pipeline definition to svn.freebsd.org?
