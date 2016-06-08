@@ -139,10 +139,12 @@ Possible issues
 # Jenkins plugins now used in our system, and some useful plugins
 - https://wiki.freebsd.org/Jenkins/#Plugins_we_use
 - LDAP
-- Matrix authenication
+- matrix authorization
 - green balls
 - compiler warnings
 - checkstyle
+- phabricator differential
+  - needs patch for working with SVN
 
 ---
 # Current issues
@@ -191,3 +193,11 @@ Possible issues
 - Install required plugins (and document: what are they, do they need special Jenkins global settings?)
 - Create a job without specify build node / label
 - Pass me ${JENKINS_HOME}/jobs/&lt;jobname&gt;/config.xml
+
+---
+# More details
+https://docs.google.com/document/d/1qI2vH2tWdzifeb-QfQrAEBz5SCe84xXmuhmNjXgtxs4/pub
+
+TODO:
+- arrange it
+- extract TODO items and put on wiki
