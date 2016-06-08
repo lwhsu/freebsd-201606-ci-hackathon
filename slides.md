@@ -7,13 +7,13 @@ Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
 ---
 # Agenda
 
-- Curret system architecture, resource we have
+- Current system architecture, resource we have
 - My planned new system architecture
 - Current build jobs we have
 - Install Jenkins on FreeBSD, basic setup and maintenance
 - "Pipeline" job in Jenkins 2
 - Jenkins plugins now used in our system, and some useful plugins
-- Curent issues
+- Current issues
 - Current TODO items
 
 
@@ -33,7 +33,7 @@ https://wiki.freebsd.org/Jenkins/Architecture
       - can be solved by automatically provision build environment (script needed!)
   - Running test VM depends on NFS, adding one more unstable factor
       - can be solved by introducing a artifact server
-  - Running test/buil may crash the host where jenkins master is running
+  - Running test/build may crash the host where jenkins master is running
 
 ---
 # Resource we have currently
