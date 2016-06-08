@@ -181,6 +181,7 @@ Possible issues
 # Current TODO items (c.)
 - Housekeeping the resources requested by jenkins-admin@
   - IPs, firewall rules, etc.
+  - Need help from clusteradm to retrieve list
 - Stage environment
 - Better authenication model
   - OAuth2, needs forking and modification other oauth plugins
