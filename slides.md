@@ -117,9 +117,11 @@ Possible issues
 
 ---
 # Current build jobs we have
-- pipeline
+- pipeline jobs
   - FreBSD_HEAD, FreeBSD_stable-10
-- build-in-jail
+- freestyle jobs
+  - doc
+- freestyle jobs, "build-in-jail"
   - arm64, i386 builds
 
 ---
