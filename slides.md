@@ -74,7 +74,8 @@ arthur.nyi (arrived 2016/04, under testing)
 - Slaves running scripts to connect back to master server
   - Don't use ssh, it's requested by clusteradm
   - https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds#Distributedbuilds-LaunchslaveagentviaJavaWebStart
-  - https://github.com/lwhsu/jenkins-slave-scripts (currently running on kyua\*.nyi)
+  - https://github.com/lwhsu/jenkins-slave-scripts
+      - Currently running on kyua\*.nyi
 
 ---
 # Planned new system architecture (misc)
