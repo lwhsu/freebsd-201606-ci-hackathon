@@ -13,7 +13,7 @@ Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
 - Install Jenkins on FreeBSD, basic setup and maintenance
 - "Pipeline" job in Jenkins 2
 - Jenkins plugins now used in our system, and some useful plugins
-- The issues we currently have.
+- Curent issues
 - Current TODO items
 
 
@@ -144,7 +144,7 @@ Possible issues
 - checkstyle
 
 ---
-# The issues we currently have
+# Current issues
 - Publish-over-ftp doesn't support pipeline
   - can use multiple jobs
   - working on fixing
