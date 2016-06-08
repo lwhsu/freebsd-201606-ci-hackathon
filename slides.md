@@ -189,6 +189,9 @@ Possible issues
       - Have a "FreeBSD jail wrapper plugin"?
 - Integration with Phabricator (reviews.freebsd.org)
   - https://github.com/uber/phabricator-jenkins-plugin
+
+---
+# Current TODO items (c.)
 - Revive clang-scan-build
   - Use `make analyze`
 - Automatically exp-run (for all tree / one port)
@@ -196,7 +199,7 @@ Possible issues
   - sysutils/py-diffoscope
   - PublishHTML plugin
 - Integration with redports
-  - make redports thin, just handing authenication and passing patch
+  - Make redports thin, just handing authenication and passing patch
 
 ---
 # Current TODO items (c.)
