@@ -161,6 +161,8 @@ Possible issues
 - Integration with redports (make redpots thin, just handing authenication and passing patch)
 
 
+- Housekeeping the resources requested by jenkins-admin@
+  - IPs, firewall rules, etc.
 - Stage environment
 - Better authenication model
   - OAuth2, needs forking and modification other oauth plugins
