@@ -29,7 +29,10 @@ https://wiki.freebsd.org/Jenkins/Architecture
   - jenkins10 (VM) moved to chaos.ysv
 
 - Issues
+  - Some jobs require package pre-installed on build slaves
+      - can be solved by automatically provision build environment (script needed!)
   - Running test VM depends on NFS, adding one more unstable factor
+      - can be solved by introducing a artifact server
   - Running test/buil may crash the host where jenkins master is running
 
 ---
@@ -102,3 +105,39 @@ Possible issues
 - Install required plugins (and document: what are they, do they need special Jenkins global settings?)
 - Create a job without specify build node / label
 - Pass me ${JENKINS_HOME}/jobs/&lt;jobname&gt;/config.xml
+
+---
+# Current build jobs we have
+- pipeline
+
+---
+# Install Jenkins on FreeBSD and basic setup and maintenance
+
+---
+# "Pipeline" job in Jenkins 2
+- https://jenkins.io/2.0/#pipelines
+- Pipelie as code
+- Durable
+
+
+- Demo
+
+---
+# Jenkins plugins now used in our system, and some useful plugins
+
+---
+# The issues we currently have.
+- Publish-over-ftp doesn't support pipeline
+  - can use multiple jobs
+  - working on fixing
+- pipeline script and source code located in different repositories
+  - cause SCM monitoring failing
+  - move pipeline definition to svn.freebsd.org?
+  - (workaround) just create a "monitoring job"
+
+---
+# Current TODO items
+- Integration with Phabricator (reviews.freebsd.org)
+
+
+- Stage environment
