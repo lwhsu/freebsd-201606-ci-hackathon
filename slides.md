@@ -201,6 +201,12 @@ Possible issues
 
 ---
 # Small TBD items
+- pipeline/jobs trigger frequency
+  - building world & kernel takes ~20 mins, full regression test takes ~1 hour
+  - a single pipline takes too much time, cannot detect compiling fail quick emough
+  - a pipeline configurated running jobs in parallel makes endless regression jobs
+      - N "compiling test jobs" trigger 1 "regression test job" ?
+      - regression job can only run one in a time, just takes latest result from compiling job
 - new domain name?
   - ci.freebsd.org?
   - build.freebsd.org?
