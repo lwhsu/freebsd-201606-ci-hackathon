@@ -102,7 +102,7 @@ Hardware allocation
 ]
 .right-column[
 Possible issues
-- YSV decommission
+- YSV decommission (when?)
 - arthur.nyi's storage is too good for a build salve
 - arthur.nyi's CPU/memory are too good for a master node
 
@@ -203,7 +203,8 @@ Possible issues
 - Housekeeping the resources requested by jenkins-admin@
   - IPs, firewall rules, etc.
   - Need help from clusteradm to retrieve list
-- Stage environment
+- Stage environment (ci-dev.freebsd.org)
+  - Jail inside jail?
 - Better authenication model
   - OAuth2, needs forking and modification other oauth plugins
       - https://wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin
