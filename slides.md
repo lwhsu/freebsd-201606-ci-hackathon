@@ -99,12 +99,6 @@ Possible issues
 - Need IPv4 routing for jenkins connecting to update server
 - Need another physical machine for separating external user-facing service and build salves
 
----
-# Propose a new build job
-- Install jenkins locally
-- Install required plugins (and document: what are they, do they need special Jenkins global settings?)
-- Create a job without specify build node / label
-- Pass me ${JENKINS_HOME}/jobs/&lt;jobname&gt;/config.xml
 
 ---
 # Current build jobs we have
@@ -169,8 +163,15 @@ Possible issues
 - Stage environment
 
 ---
-# Last by not least
+# Small TBD items
 - new domain name?
   - ci.freebsd.org?
   - build.freebsd.org?
 - job naming convention
+
+---
+# Propose a new build job
+- Install jenkins locally
+- Install required plugins (and document: what are they, do they need special Jenkins global settings?)
+- Create a job without specify build node / label
+- Pass me ${JENKINS_HOME}/jobs/&lt;jobname&gt;/config.xml
