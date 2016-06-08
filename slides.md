@@ -16,6 +16,9 @@ Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
 - The issues we currently have.
 - Current TODO items
 
+
+- Notes: https://titanpad.com/Oi9TVclLjc (please help!)
+
 ---
 # System Architecture
 
@@ -34,7 +37,7 @@ https://wiki.freebsd.org/Jenkins/Architecture
 
 https://wiki.freebsd.org/Jenkins/MachineList
 
-arthur.nyi
+arthur.nyi (added 2016/04)
 - CPU: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz (2300.05-MHz K8-class CPU)
 - FreeBSD/SMP: Multiprocessor System Detected: 40 CPUs
 - ada[0-1]:
@@ -49,16 +52,53 @@ arthur.nyi
 - main server
   - jenkins master jail
   - web server jail
+      - reverse proxy for jenkins
+      - serving artifact to external users
   - artifact storage jail
+      - running ftpd (ftp-over-tls) for slaves uploading artifact
   - admin jail
+      - config repository
 - jail node(s)
+  - Simple build, focus on build speed
 - bhyve node(s)
+  - provision test VM with image built in previous phase
 - qemu node(s)
+  - run test VM for the arch that bhyve doesn't support
 
 ---
 # Planned resource allocation
 (while YSV still available)
+.left-column[
+Hardware allocation
+- main server
+  - wreck.ysv
+- jail node(s)
+  - arthur.nyi
+- bhyve node(s)
+  - chaos.ysv
+  - arthur.nyi
+- qemu node(s)
+  - kyua*.nyi
+]
+.right-column[
+Possible issues
+- YSV decommission
+- arthur.nyi's storage is too good for a build salve
+- arthur.nyi's CPU/memory are too good for master node
+
+
+- can we buy new machine in NYI and move/exchange components on arthur.nyi?
+]
 
 ---
 # Planned resource allocation
 (after YSV decommission)
+- Need IPv4 routing for jenkins connecting to update server
+- Need another physical machine for separating external user-facing service and build salves
+
+---
+
+- Install jenkins locally
+- Install required plugins (and document: what are they, do they need special Jenkins global settings?)
+- Create a job without specify build node / label
+- Pass me ${JENKINS_HOME}/jobs/&lt;jobname&gt;/config.xml
