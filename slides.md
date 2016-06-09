@@ -17,7 +17,7 @@ Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
 - Current TODO items
 
 
-- Notes: https://pad.riseup.net/p/FreeBSD_CI_201606
+- Notes: https://titanpad.com/Oi9TVclLjc
 
 ---
 # System Architecture
