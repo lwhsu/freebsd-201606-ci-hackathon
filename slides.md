@@ -85,6 +85,7 @@ arthur.nyi (arrived 2016/04, under testing)
   - What should be used in the "From:" field for reporting mails?
   - jenkins-admin@ (currently), jenkins-no-reply@
 - Monitoring, for service liveness check
+  - May need clusteradm help
 - Cloud nodes?
 
 ---
