@@ -205,6 +205,8 @@ Possible issues
   - PublishHTML plugin
 - Integration with redports
   - Make redports thin, just handing authenication and passing patch
+- Jobs for nono-default-on tests
+  - DTrace test suit
 
 ---
 # Current TODO items (c.)
