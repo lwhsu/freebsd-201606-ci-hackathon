@@ -73,7 +73,7 @@ arthur.nyi (arrived 2016/04, under testing)
   - QEMU node(s)
       - run test VM for the arch that bhyve doesn't support
       - https://wiki.freebsd.org/QemuRecipes
-- Slaves running scripts to connect back to master server
+- Slaves connects back to master server
   - Don't use ssh, it's requested by clusteradm
   - https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds#Distributedbuilds-LaunchslaveagentviaJavaWebStart
   - https://github.com/lwhsu/jenkins-slave-scripts
