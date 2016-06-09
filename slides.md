@@ -230,9 +230,9 @@ Possible issues
 ---
 # TBD items
 - Pipeline/jobs trigger frequency
-  - building world & kernel takes ~20 mins, full regression test takes ~1 hour
-  - a single pipline takes too much time, cannot detect compiling fail quick emough
-  - a pipeline configurated running jobs in parallel makes endless regression jobs
+  - Building world & kernel takes ~20 mins, full regression test takes ~1 hour
+  - A single pipline takes too much time, cannot detect compiling fail quick enough
+  - A pipeline configurated running jobs in parallel makes endless regression jobs
       - N "compiling test jobs" trigger 1 "regression test job" ?
       - regression job can only run one in a time, just takes latest result from compiling job
 - New domain name?
