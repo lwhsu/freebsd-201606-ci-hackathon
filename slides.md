@@ -189,14 +189,14 @@ Possible issues
 - Create new jenkins cluster, move current jobs to it
 - More complex pipeline
   - ex: quick amd64/i386 build -&gt; make universe -&gt; test
+- Integration with Phabricator (reviews.freebsd.org)
+  - https://github.com/uber/phabricator-jenkins-plugin
 - A better "template job"
   - preliminary work:
       - https://github.com/freebsd/freebsd-ci/tree/master/scripts/jail
       - https://github.com/freebsd/freebsd-ci/tree/master/jobs/FreeBSD_Doc-igor
       - Have a "FreeBSD jail wrapper plugin"?
           - Fork chroot or docker plugin
-- Integration with Phabricator (reviews.freebsd.org)
-  - https://github.com/uber/phabricator-jenkins-plugin
 
 ---
 # Current TODO items (c.)
