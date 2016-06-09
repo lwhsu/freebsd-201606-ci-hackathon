@@ -188,7 +188,7 @@ Possible issues
 - **Recruit more people to join jenkins-admin@**
 - Create new jenkins cluster, move current jobs to it
 - More complex pipeline
-  - ex: quick amd64/i386 build -&gt; make universe -&gt; test
+  - ex: quick amd64/i386 build -&gt; make universe -&gt; test in VM
 - Integration with Phabricator (reviews.freebsd.org)
   - https://github.com/uber/phabricator-jenkins-plugin
 - A better "template job"
