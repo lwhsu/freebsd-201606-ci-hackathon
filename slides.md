@@ -98,6 +98,7 @@ Hardware allocation
   - arthur.nyi
 - bhyve node(s)
   - chaos.ysv
+  - havoc.ysv
   - arthur.nyi
 - qemu node(s)
   - kyua\*.nyi
