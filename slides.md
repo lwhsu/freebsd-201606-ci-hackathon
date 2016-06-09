@@ -251,7 +251,7 @@ Possible issues
   - Document:
       - What are they?
       - Do they need special Jenkins global settings?
-- Create a job without specify build node / label
+- Create a job you like
 - Send ${JENKINS_HOME}/jobs/&lt;jobname&gt;/config.xml
 
 
