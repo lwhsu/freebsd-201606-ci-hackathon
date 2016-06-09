@@ -82,7 +82,7 @@ arthur.nyi (arrived 2016/04, under testing)
 ---
 # Planned new system architecture (misc)
 - Outgoing mail relay
-  - What's the mail "From:"?
+  - What should be used in the "From:" field for reporting mails?
   - jenkins-admin@ (currently), jenkins-no-reply@
 - Monitoring, for service liveness check
 - Cloud nodes?
