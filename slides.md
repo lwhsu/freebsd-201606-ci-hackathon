@@ -17,7 +17,7 @@ Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
 - Current TODO items
 
 
-- Notes: https://titanpad.com/Oi9TVclLjc (please help!)
+- Notes: https://pad.riseup.net/p/FreeBSD_CI_201606
 
 ---
 # System Architecture
@@ -226,7 +226,7 @@ Possible issues
       - also needs help from clusteradm, and clusteradm needs help
       - other cluster services will also benefite from this
 - Better Dashboard
-  - https://ci.trafficserver.apache.org/
+  - ex: https://ci.trafficserver.apache.org/
 
 ---
 # TBD items
