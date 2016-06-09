@@ -159,15 +159,16 @@ Possible issues
 ---
 # Jenkins plugins now used in our system, and some useful plugins
 - https://wiki.freebsd.org/Jenkins/#Plugins_we_use (need update/cleanup)
-- LDAP
-- matrix authorization
-- green balls
-- compiler warnings
-- checkstyle
-- email-ext
-- Embeddable Build Status
-- phabricator differential
-  - needs patch to work with SVN
+  - LDAP
+  - matrix authorization
+  - green balls
+  - compiler warnings
+  - checkstyle
+  - email-ext
+  - Embeddable Build Status
+  - phabricator differential
+      - needs patch to work with SVN
+- https://wiki.jenkins-ci.org/display/JENKINS/Plugins
 
 ---
 # Current issues
@@ -192,6 +193,7 @@ Possible issues
       - https://github.com/freebsd/freebsd-ci/tree/master/scripts/jail
       - https://github.com/freebsd/freebsd-ci/tree/master/jobs/FreeBSD_Doc-igor
       - Have a "FreeBSD jail wrapper plugin"?
+          - Fork chroot or docker plugin
 - Integration with Phabricator (reviews.freebsd.org)
   - https://github.com/uber/phabricator-jenkins-plugin
 
