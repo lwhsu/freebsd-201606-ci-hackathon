@@ -110,7 +110,7 @@ Possible issues
 - arthur.nyi's CPU/memory are too good for a master node
 
 
-- can we buy new machine in NYI and move/exchange components on arthur.nyi?
+- Can we buy new machines in NYI and move/exchange components on arthur.nyi?
 ]
 
 ---
@@ -164,6 +164,8 @@ Possible issues
 - green balls
 - compiler warnings
 - checkstyle
+- email-ext
+- Embeddable Build Status
 - phabricator differential
   - needs patch to work with SVN
 
