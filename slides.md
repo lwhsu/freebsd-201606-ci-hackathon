@@ -72,6 +72,7 @@ arthur.nyi (arrived 2016/04, under testing)
       - provision test VM with image built in previous phase
   - QEMU node(s)
       - run test VM for the arch that bhyve doesn't support
+      - https://wiki.freebsd.org/QemuRecipes
 - Slaves running scripts to connect back to master server
   - Don't use ssh, it's requested by clusteradm
   - https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds#Distributedbuilds-LaunchslaveagentviaJavaWebStart
@@ -194,7 +195,7 @@ Possible issues
 ---
 # Current TODO items (c.)
 - Revive clang-scan-build
-  - Use `make analyze`
+  - Use `make analyze` & `make checkworld`
 - Automatically exp-run (for all tree / one port)
 - job for checking reproducible build (src, ports)
   - sysutils/py-diffoscope
@@ -214,9 +215,11 @@ Possible issues
       - https://wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin
       - also needs help from clusteradm, and clusteradm needs help
       - other cluster services will also benefite from this
+- Better Dashboard
+  - https://ci.trafficserver.apache.org/
 
 ---
-# Small TBD items
+# TBD items
 - Pipeline/jobs trigger frequency
   - building world & kernel takes ~20 mins, full regression test takes ~1 hour
   - a single pipline takes too much time, cannot detect compiling fail quick emough
@@ -227,6 +230,9 @@ Possible issues
   - ci.freebsd.org?
   - build.freebsd.org?
 - Job naming convention
+- Real hardware test
+- How to work with re@
+  - ABI compatibility check
 
 ---
 # Propose a new build job
