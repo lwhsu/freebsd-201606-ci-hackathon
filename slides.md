@@ -185,7 +185,7 @@ Possible issues
 
 ---
 # Current TODO items
-- Recruit more people join jenkins-admin@
+- **Recruit more people to join jenkins-admin@**
 - Create new jenkins cluster, move current jobs to it
 - More complex pipeline
   - ex: quick amd64/i386 build -&gt; make universe -&gt; test
