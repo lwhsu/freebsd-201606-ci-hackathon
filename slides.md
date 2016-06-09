@@ -202,6 +202,7 @@ Possible issues
 # Current TODO items (c.)
 - Revive clang-scan-build
   - Use `make analyze` & `make checkworld`
+  - clang-scan-build plugin
 - Automatically exp-run (for all tree / one port)
 - job for checking reproducible build (src, ports)
   - sysutils/py-diffoscope
