@@ -86,7 +86,7 @@ arthur.nyi (arrived 2016/04, under testing)
   - jenkins-admin@ (currently), jenkins-no-reply@
 - Monitoring, for service liveness check
   - May need clusteradm help
-- Cloud nodes?
+- Nodes on cloud?
 
 ---
 # Planned resource allocation
