@@ -30,7 +30,7 @@ https://wiki.freebsd.org/Jenkins/Architecture
 
 - Issues
   - Some jobs require package pre-installed on build slaves
-      - Can be solved by automatically provision build environment (script needed!)
+      - Can be solved by automatically setup/teardown build environment (script needed!)
   - Running test VM depends on NFS, adding one more unstable factor
       - Can be solved by introducing a artifact server
   - Running test/build may crash the host where jenkins master is running
