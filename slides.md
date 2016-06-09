@@ -236,8 +236,7 @@ Possible issues
       - N "compiling test jobs" trigger 1 "regression test job" ?
       - regression job can only run one in a time, just takes latest result from compiling job
 - New domain name?
-  - ci.freebsd.org?
-  - build.freebsd.org?
+  - ci.freebsd.org? build.freebsd.org?
 - Job naming convention
 - Real hardware test
 - How to work with re@
