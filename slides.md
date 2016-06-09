@@ -235,7 +235,9 @@ Possible issues
 - Job naming convention
 - Real hardware test
 - How to work with re@
-  - ABI compatibility check
+  - Official snapshot?
+  - Full pre-release tests
+      - ABI compatibility check
 
 ---
 # Propose a new build job
