@@ -43,6 +43,7 @@ https://wiki.freebsd.org/Jenkins/MachineList
 arthur.nyi (arrived 2016/04, under testing)
 - CPU: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz (2300.05-MHz K8-class CPU)
 - FreeBSD/SMP: Multiprocessor System Detected: 40 CPUs
+- MEM: 256GB
 - ada[0-1]:
   - &lt;INTEL SSDSC2BA200G4 G2010140&gt; ACS-2 ATA SATA 3.x device
   - 190782MB (390721968 512 byte sectors)
