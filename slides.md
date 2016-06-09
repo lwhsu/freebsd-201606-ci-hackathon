@@ -58,7 +58,7 @@ arthur.nyi (arrived 2016/04, under testing)
       - Reverse proxy for jenkins
       - Serving artifact to external users
   - Artifact storage jail
-      - running ftpd (ftp-over-tls) for slaves uploading artifact
+      - Running ftpd (ftp-over-tls) for slaves uploading artifact
       - For jobs to get the artifact from upstream jobs, then do further build/testing
   - Admin jail
       - Config repository
@@ -185,6 +185,7 @@ Possible issues
 
 ---
 # Current TODO items
+- Recruit more people join jenkins-admin@
 - Create new jenkins cluster, move current jobs to it
 - More complex pipeline
   - ex: quick amd64/i386 build -&gt; make universe -&gt; test
