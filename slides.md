@@ -204,8 +204,11 @@ Possible issues
 ---
 # Current TODO items (c.)
 - Revive clang-scan-build
-  - Use `make analyze` & `make checkworld`
-  - clang-scan-build plugin
+  - Use `make analyze`
+      - `make CLANG_ANALYZE_OUTPUT_DIR=${WORKSPACE}/clangScanBuildReports CLANG_ANALYZE_OUTPUT=html analyze`
+      - Does this work for just type `make analyze` in /usr/src ?
+      - Adding target `make checkworld`
+  - Clang-scan-build plugin
 - Automatically exp-run (for all tree / one port)
 - job for checking reproducible build (src, ports)
   - sysutils/py-diffoscope
