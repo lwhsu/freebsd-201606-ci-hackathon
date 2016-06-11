@@ -2,7 +2,7 @@ class: center, middle
 
 # FreeBSD CI
 
-Li-Wen Hsu &lt; lwhsu@FreeBSD.org &gt;
+Li-Wen Hsu &lt;lwhsu@FreeBSD.org&gt;
 
 ---
 # Agenda
